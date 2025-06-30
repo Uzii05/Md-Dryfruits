@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MD Dry Fruits</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <img src="images/banner (1).jpg" alt="Shop Banner" class="banner">
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
+      <a href="#gallery" onclick="toggleGallery()">Gallery</a>
+      <a href="#about" onclick="toggleAbout()">About Us</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h2>Chocolates • Dry Fruits • Gift Boxes • Dates</h2>
+    <p>Premium Quality • Best Prices • Fresh & Healthy</p>
+  </section>
+
+  <section id="products" class="products">
+    <h2>Our Specialties</h2>
+    <div class="product-list">
+      <div class="product">
+        <img src="images/giftbox.jpg" alt="Dry Fruit Box">
+        <h3>Dry Fruit gift Boxes</h3>
+        <p>Perfect for weddings & festivals</p>
+      </div>
+      <div class="product">
+        <img src="images/saudi_dates.jpg" alt="Saudi Dates">
+        <h3>Royal Saudi AJWA Dates</h3>
+        <p>Premium quality with rich taste</p>
+      </div>
+      <div class="product">
+        <img src="images/max_chocolates.jpg" alt="Chocolates">
+        <h3>MAXsweet-Chocolates</h3>
+        <p>Imported & luxury collection</p>
+      </div>
+
+      <!-- New Products -->
+      <div class="product">
+        <img src="images/fondella.jpg" alt="Fondella Chocolates">
+        <h3>Fondella Assorted Chocolates</h3>
+        <p>Deliciously assorted treats for every occasion</p>
+      </div>
+      <div class="product">
+        <img src="images/lol_candy.jpg" alt="LOL Unicorn Candy">
+        <h3>LOL Unicorn Swirl Candy</h3>
+        <p>Colorful fun candies for kids and parties</p>
+      </div>
+      <div class="product">
+        <img src="images/long_twist.jpg" alt="Long Twist Marshmallows">
+        <h3>Long Twist Marshmallows</h3>
+        <p>Soft and chewy twisted marshmallow treats</p>
+      </div>
+      <div class="product">
+        <img src="images/fruit_jelly_drinks.jpg" alt="Fruit Jelly Drinks">
+        <h3>Fruit Jelly Drinks</h3>
+        <p>Refreshing jelly drinks in fruity flavors</p>
+      </div>
+      <div class="product">
+        <img src="images/barni_dates.jpg" alt="Barni Dates">
+        <h3>Barni Dates – Premium Quality</h3>
+        <p>Finest Barni dates full of natural sweetness</p>
+      </div>
+      <div class="product">
+        <img src="images/kimia_dates.jpg" alt="Kimia Dates">
+        <h3>Royal Kimia Iran Dates</h3>
+        <p>Soft and succulent Kimia dates from Iran</p>
+      </div>
+      <div class="product">
+        <img src="images/glacier_almond.jpg" alt="Glacier Almond Box">
+        <h3>Glacier California Almond toffee Box</h3>
+        <p>Perfect gift box of premium almonds</p>
+      </div>
+      <div class="product">
+        <img src="images/glacier_toffee.jpg" alt="Glacier Assorted Toffees">
+        <h3>Glacier Toffees</h3>
+        <p>Irresistibly smooth toffee in assorted flavors</p>
+      </div>
+
+      <div class="product">
+        <img src="images/akbari_pistachios.jpg" alt="Akbari Pistachios">
+        <h3>Akbari Pistachios – King Uncle</h3>
+        <p>Rich, premium pistachio kernels</p>
+      </div>
+      <div class="product">
+        <img src="images/jumbo_dates.jpg" alt="Jumbo Medjoul Dates">
+        <h3>Jumbo Medjoul Dates</h3>
+        <p> Caramel-like sweetness in Jumbo size</p>
+      </div>
+      <div class="product">
+        <img src="images/maxsweet_rose.jpg" alt="MAXsweet Chocolate Rose">
+        <h3>MAXsweet Chocolate Rose Tube</h3>
+        <p>Romantic chocolate gift with a rose touch</p>
+      </div>
+      <div class="product">
+        <img src="images/smith_pistachios.jpg" alt="Smith Pistachios">
+        <h3>Kitchen Smith pistachios</h3>
+        <p> Crunchy, Salty, and Wholesomely Satisfying</p>
+      </div>
+      <div class="product">
+        <img src="images/naturoz_almonds.JPG" alt="Naturoz California Almonds">
+        <h3>Naturoz California Almonds</h3>
+        <p> Naturally Delicious,Purely Healthy</p>
+      </div>
+      <div class="product">
+        <img src="images/barari_dates.jpg" alt="Barari Dates">
+        <h3>Barari Dates</h3>
+        <p>Naturally sweet, tender, and richly satisfying</p>
+      </div>
+      <div class="product">
+        <img src="images/branch_dates.JPG" alt="Falcon & kraft Dates">
+        <h3>Falcon & K.R.A.F.T Dates (on the branch)</h3>
+        <p>Firmly sweet and satisfying,still on the branch</p>
+      </div>
+      <div class="product">
+        <img src="images/medjool_dates.jpg" alt="Medjool PlusMP Dates">
+        <h3>Medjool PlusMP Dates</h3>
+        <p>Richly sweet and lusciously tender date delights</p>
+      </div>
+      <div class="product">
+        <img src="images/walnut.jpg" alt="Walnut Kernels">
+        <h3>Tulsi Walnuts Premium</h3>
+        <p>Premium brain-boosting walnut halves</p>
+      </div>
+      <div class="product">
+        <img src="images/king_dates.jpg" alt="King Dates Premium Fard">
+        <h3>King Dates Premium </h3>
+        <p>Royal in taste and exquisitely tender date treats</p>
+      </div>
+      <div class="product">
+        <img src="images/kimia_original.jpg" alt="Al-Fazal Original Kimia Dates">
+        <h3>Al-Fazal original kimia Dates</h3>
+        <p>Soft, naturally sweet, and original date delights</p>
+      </div>
+      <div class="product">
+        <img src="images/toffees.jpg" alt="Rainbow Eclairs Chocolates">
+        <h3>Rainbow Eclairs Chocolates</h3>
+        <p>Smooth, rich, and delightfully creamy chocolate treats.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>📍 Contact Us</h2>
+    <div style="display: flex; align-items: center; justify-content: center; gap: 45px;">
+      <div style="text-align: center;">
+        <p><strong>Scan for the Location:</strong></p>
+        <img src="images/location.jpeg" alt="Location QR Code" style="width: 150px; height: 150px;">
+      </div>
+      <div>
+        <p><strong>Saleem:</strong> 
+          <img src="images/whatsapp_logo.png" alt="WhatsApp Icon" style="width: 20px; height: 20px; vertical-align: middle;"> 
+          9490729870
+        </p>
+        <p><strong>Adil:</strong> 
+          <img src="images/whatsapp_logo.png" alt="WhatsApp Icon" style="width: 20px; height: 20px; vertical-align: middle;"> 
+          9705186750
+        </p>
+        <p><strong>Location:</strong> Near Jamiya Masjid, Daknipet, Madanapalle – 517 325</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="gallery" style="display: none;">
+    <h2>📸 Gallery</h2>
+    <div class="gallery-images">
+      <img src="images/pic1.jpg" alt="Gallery Image 1" onclick="openModal(0)">
+      <img src="images/pic2.jpg" alt="Gallery Image 2" onclick="openModal(1)">
+      <img src="images/pic3.jpg" alt="Gallery Image 3" onclick="openModal(2)">
+      <img src="images/pic4.jpg" alt="Gallery Image 4" onclick="openModal(3)">
+      <img src="images/pic5.jpg" alt="Gallery Image 5" onclick="openModal(4)">
+      <img src="images/pic6.jpg" alt="Gallery Image 6" onclick="openModal(5)">
+      <img src="images/pic7.jpg" alt="Gallery Image 1" onclick="openModal(6)">
+      <img src="images/pic8.jpg" alt="Gallery Image 2" onclick="openModal(7)">
+      <img src="images/pic9.jpg" alt="Gallery Image 3" onclick="openModal(8)">
+      <img src="images/pic10.jpg" alt="Gallery Image 4" onclick="openModal(9)">
+      <img src="images/pic11.jpg" alt="Gallery Image 5" onclick="openModal(10)">
+      <img src="images/pic12.jpg" alt="Gallery Image 6" onclick="openModal(11)">
+      <img src="images/pic13.jpg" alt="Gallery Image 5" onclick="openModal(12)">
+      <img src="images/pic14.jpg" alt="Gallery Image 6" onclick="openModal(13)">
+    </div>
+  </section>
+
+  <!-- Modal for Image Viewer -->
+  <div id="imageModal" class="modal" style="display: none;">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img id="modalImage" src="" alt="Gallery Image">
+    <button class="prev" onclick="changeImage(-1)">&#10094;</button>
+    <button class="next" onclick="changeImage(1)">&#10095;</button>
+  </div>
+
+  <section id="about" class="about" style="display: none;">
+    <h2>About Us</h2>
+    <div style="text-align: center; margin-bottom: 10px;">
+        <img src="images/logo.png" alt="MD Dry Fruits Logo" style="width: 150px; height: 150px; border-radius: 45%;">
+    </div>
+    <p>
+      MD Dry Fruits is a family-run store based in Madanapalle, dedicated to offering the finest selection of dry fruits, premium chocolates, and imported dates. We believe in delivering quality that you can see, taste, and trust.
+    </p>
+    <p>
+      What started as a small venture is now a trusted name known for variety, quality, and honest pricing. Whether you’re celebrating a festival, attending a wedding, or simply gifting your loved ones, our products are handpicked to match every special occasion.
+    </p>
+    <p>
+      We take pride in curating beautiful dry fruit gift boxes, luxurious chocolate collections, and top-grade Saudi and Iranian dates. Every product is chosen with attention to freshness, packaging, and customer satisfaction.
+    </p>
+    <p>
+      Located near Jamiya Masjid in Daknipet, Madanapalle, we serve with a smile and a promise of purity. Step in and explore our range. 
+    </p>
+    <p>
+       With MD Dry Fruits, it’s not just about taste—it’s about tradition, trust, and thoughtful gifting.
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 MD Dry Fruits. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

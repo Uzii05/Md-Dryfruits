@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #fdf6e3; /* Soft cream background */
+  color: #4e342e; /* Warm brown text color */
+}
+
+header {
+  background-color: #6a5148; /* Soft brown header */
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+nav a {
+  color: #fbe9e7; /* Light peach link color */
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.hero {
+  background: #ffecb3; /* Soft yellow background */
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.products {
+  padding: 50px 20px;
+  background: #fff3e0; /* Light orange background */
+  text-align: center;
+}
+
+.products h2 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #6d4c41; /* Warm brown title color */
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.product {
+  background: white;
+  border: 2px solid #ffe0b2; /* Light orange border */
+  border-radius: 12px;
+  width: 220px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.product:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.product img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.product h3 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #4e342e; /* Warm brown text color */
+  margin-bottom: 5px;
+}
+
+.product p {
+  font-size: 1rem;
+  color: #6d4c41; /* Slightly lighter brown */
+}
+
+.contact {
+  background: #e0f7fa; /* Soft blue background */
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #006064; /* Deep teal title color */
+}
+
+footer {
+  background-color: #5d4037; /* Dark brown footer */
+  color: white;
+  text-align: center;
+  padding: 12px;
+  font-size: 0.9rem;
+}
+
+.gallery {
+  background: #f3e5f5; /* Soft lavender background */
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.gallery h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #7b1fa2; /* Deep purple title color */
+}
+
+.gallery-images {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 10px;
+}
+
+.gallery-images img {
+  flex-shrink: 0;
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal img {
+  max-width: 80%;
+  max-height: 80%;
+  border-radius: 10px;
+}
+
+.modal .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.modal .prev,
+.modal .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.modal .prev {
+  left: 20px;
+}
+
+.modal .next {
+  right: 20px;
+}
+
+.banner {
+  width: 100%;
+  max-width: 1280px;
+  height: auto;
+  max-height: 409px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for the banner */
+}
+
+.about {
+  background: #fdf6e3; /* Soft cream background */
+  padding: 50px 20px;
+  text-align: center; /* Center-aligns the content */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #6d4c41; /* Warm brown title color */
+  margin-bottom: 30px;
+  font-family: 'Times New Roman', serif; /* Sets font style */
+}
+
+.about p {
+  font-size: 1.3rem;
+  color: #4e342e; /* Warm brown text color */
+  line-height: 1.8; /* Improves readability */
+  margin-bottom: 20px;
+  text-align: center; /* Center-aligns the paragraphs */
+  font-family: 'Times New Roman', serif; /* Sets font style */
+  max-width: 800px; /* Restricts width for better readability */
+  margin-left: auto; /* Centers the paragraph */
+  margin-right: auto; /* Centers the paragraph */
+}
+
+.about p:last-child {
+  margin-bottom: 0; /* Removes extra margin from the last paragraph */
+}
